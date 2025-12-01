@@ -32,12 +32,16 @@ body {
     border-radius: 10px;
     border: 1px solid #1c2533;
     padding: 10px;
-    margin: 50px 300px 100px 300px;
+    margin: 50px 500px 100px 500px;
     background-color: #0a0f1f;
     color: white;
 }
 
 .container h1{
+    color: #fa7516;
+}
+
+.container a{
     color: #fa7516;
 }
 
