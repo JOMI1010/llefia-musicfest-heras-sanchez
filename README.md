@@ -7,6 +7,7 @@
     - cartel.html
     - contactos.html
     - horario.html
+- Click derecho sobre index.html y Open whit Live Server
 # Autor
 ## José Miguel Heras
 
