@@ -1,85 +1,104 @@
 body {
-    background-color: #0b0b0f;
+  background-color: #0b0b0f;
+  font-family: sans-serif;
 }
 
 .enlaces {
-    background-color: #1c2533;
-    color: white;
-    padding: 20px 300px 20px 300px;
-    text-align: center;
-    align-items: center; 
+  background-color: #1c2533;
+  color: white;
+  padding: 20px 300px 20px 300px;
+  text-align: center;
+  align-items: center;
 }
 
 .solo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.solo a{
-    text-decoration: none;
-    color: white;
+.solo a {
+  text-decoration: none;
+  color: white;
 }
 
 .cadauno {
-    border: 1px;
-    border-radius: 10px;
-    background-color: #374152;
-    padding: 5px;
-    margin: 5px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #374152;
+  padding: 5px;
+  margin: 5px;
 }
 
-.container{
-    border-radius: 10px;
-    border: 1px solid #1c2533;
-    padding: 10px;
-    margin: 50px 500px 100px 500px;
-    background-color: #0a0f1f;
-    color: white;
+.container {
+  border-radius: 10px;
+  border: 1px solid #1c2533;
+  padding: 10px;
+  margin: 50px 500px 100px 500px;
+  background-color: #0a0f1f;
+  color: white;
 }
 
-.container h2{
-    color: #fa7516;
+.container h2 {
+  color: #fa7516;
 }
 
-.container a{
-    color: #fa7516;
+.container a {
+  color: #fa7516;
 }
 
 .abajo {
-    background-color: #020617;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 10px ;    
-    height: 50px;
+  background-color: #020617;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10px;
+  height: 50px;
 }
 
-.tabla{
-        align-items: center;
-        border: 1px solid gray;
-        padding: 5px;
+.tabla {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #020617;
+  color: #f5f5f5;
+}
+
+.tabla th {
+  background-color: #111826;
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tabla td {
+  text-align: center;
+  border: 1px solid #666;
+  padding: 8px;
 }
 
 button {
-        padding: 0.8rem;
-        background-color: #ff8800;
-        color: #fff;
-        border: none;
-        border-radius: 8px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: background-color 0.3s;
+  padding: 0.8rem;
+  background-color: #ff8800;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-        background-color: #e67600;
+  background-color: #e67600;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-textarea, input, select {
-    background-color: #020617;
+textarea,
+input,
+select {
+  background-color: #020617;
 }
