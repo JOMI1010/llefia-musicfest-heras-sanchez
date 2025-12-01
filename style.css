@@ -102,3 +102,7 @@ input,
 select {
   background-color: #020617;
 }
+
+option {
+  color: white;
+}
