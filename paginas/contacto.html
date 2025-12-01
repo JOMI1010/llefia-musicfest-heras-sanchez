@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cartel</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <div class="enlaces">
       <h1>Llefiá Music Fest</h1>
-      <h2>Descubre el cartel y la experiencia del festival.</h2>
+      <h2>Consulta los horarios de los conciertos.</h2>
 
       <div class="solo">
         <div class="cadauno">
@@ -31,18 +31,72 @@
     </div>
 
     <div class="container">
-      <h1>Artistas principales</h1>
-      <ul>
-        <li><strong>Midnight Echoes</strong> - Indie rock atmosférico</li>
-        <li><strong>Neón Barrio</strong> - Electrónica con ritmos latinos.</li>
-        <li><strong>Llefià Roots</strong> - Fusión reggae y r&b.</li>
-        <li><strong>Loop Theory</strong> - Techno melódico en directo.</li>
-      </ul>
+      <h2>Entradas y contacto</h2>
+      <p>
+        Completa este formulario de ejemplo. En el examen se te pedirá algo muy
+        similar en otra página.
+      </p>
+
+      <form>
+        <label for="nombre">Nombre completo:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+          required
+        />
+
+        <label for="email">Correo electrónico:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tucorreo@ejemplo.com"
+          required
+        />
+
+        <label for="entrada">Tipo de entrada:</label>
+        <select id="entrada" name="entrada" required>
+          <option value="">Selecciona una opción</option>
+          <option value="1dia">Pase 1 día</option>
+          <option value="3dias">Pase 3 días</option>
+          <option value="vip">Entrada VIP</option>
+        </select>
+
+        <label>¿Quieres recibir el boletín del festival?</label>
+        <div class="radio-group">
+          <label
+            ><input type="radio" name="boletin" value="si" required /> Sí,
+            quiero novedades y playlists</label
+          >
+          <label
+            ><input type="radio" name="boletin" value="no" required /> No,
+            prefiero no recibir correos</label
+          >
+        </div>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          rows="4"
+          placeholder="Dudas sobre horarios, accesos, grupos…"
+        ></textarea>
+
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" name="privacidad" required /> Acepto la
+            política de privacidad.</label
+          >
+        </div>
+
+        <button type="submit">Enviar solicitud</button>
+      </form>
     </div>
-    
+
     <div class="abajo">
-        <p>© 2025 - Llefià Music Fest</p>
+      <p>© 2025 - Llefià Music Fest</p>
     </div>
   </body>
 </html>
-
