@@ -57,4 +57,29 @@ body {
         align-items: center;
         border: 1px solid gray;
         padding: 5px;
-      }
+}
+
+button {
+        padding: 0.8rem;
+        background-color: #ff8800;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+}
+
+button:hover {
+        background-color: #e67600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea, input, select {
+    background-color: #020617;
+}
